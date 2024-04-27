@@ -1,0 +1,50 @@
+/* Estilos do formulário */
+form {
+    margin: 3rem auto; /* Centraliza o formulário horizontalmente */
+    max-width: 15.625rem; /* Define a largura máxima do formulário */
+    width: 90%; /* Define a largura do formulário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    width: 100%; /* Define a largura dos itens do formulário */
+    margin-bottom: 0.625rem; /* Espaçamento entre os itens */
+}
+
+form label {
+    color: var(--color-title);
+    font-family: var(--font-secondary);
+    margin-bottom: 0.195rem; /* Espaçamento inferior */
+    width: 100%; /* Define a largura das labels */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.625rem; /* Espaçamento interno */
+    border: 0.0625rem solid var(--color-tertiary);
+    border-radius: 0.195rem; /* Borda arredondada */
+    font-family: var(--font-secondary);
+}
+
+form textarea {
+    height: 3.75rem; /* Altura do campo de texto */
+}
+
+form button {
+    padding: 0.625rem 1.25rem; /* Espaçamento interno */
+    background-color: var(--color-secondary);
+    border: none;
+    border-radius: 0.195rem; /* Borda arredondada */
+    color: var(--color-title);
+    font-family: var(--font-secondary);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: var(--color-gradient);
+}
