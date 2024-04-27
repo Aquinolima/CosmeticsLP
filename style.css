@@ -1,0 +1,17 @@
+@import url('./styles/reset.css');
+
+:root {
+    --color-primary: #FCCAB8;
+    --color-secondary: #ECD0C7;
+    --color-tertiary: #F78C65 ;
+    --color-gradient: #DEB3A4;
+    --color-title: #230A01;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+
+    
+}
+
+body {
+    background-color: var(--color-secondary);
+}
